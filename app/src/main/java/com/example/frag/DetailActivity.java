@@ -21,6 +21,7 @@ public class DetailActivity extends AppCompatActivity {
         Bundle extras = getIntent().getExtras();
         if (extras != null)
             selectedItem = extras.getString(SELECTED_ITEM);
+
     }
 
     @Override
