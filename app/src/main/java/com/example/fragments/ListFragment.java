@@ -1,4 +1,4 @@
-package com.example.frag;
+package com.example.fragments;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -17,10 +17,8 @@ public class ListFragment extends Fragment {
     }
 
     private OnFragmentSendDataListener fragmentSendDataListener;
-    String[] countries = { "Бразилия", "Аргентина", "Колумбия", "Чили", "Уругвай","Эквадор","Венесуэла","Перу"};
-    String[] info = {"Суверенное государство в Южной Америке",
-            "Второе после Бразилии по территории и третье после Бразилии и Колумбии по населению государство Южной Америки","Государство на северо-западе Южной Америки",
-    "Государство на юго-западе Южной Америки","Государство в юго-восточной части Южной Америки"};
+    String[] countries = { "Марокко", "Того", "Колумбия", "Суринам", "Австрия","Центрально-Африканская Республика","Бенин","Соломоновы Острова"};
+
 
 
     @Override

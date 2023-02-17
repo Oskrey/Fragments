@@ -1,17 +1,13 @@
-package com.example.frag;
+package com.example.fragments;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity  implements ListFragment.OnFragmentSendDataListener {
 
 
-    String[] info = {"Суверенное государство в Южной Америке",
-            "Второе после Бразилии по территории и третье после Бразилии и Колумбии по населению государство Южной Америки","Государство на северо-западе Южной Америки",
-            "Государство на юго-западе Южной Америки","Государство в юго-восточной части Южной Америки"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

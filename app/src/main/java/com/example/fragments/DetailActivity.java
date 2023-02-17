@@ -1,4 +1,4 @@
-package com.example.frag;
+package com.example.fragments;
 
 import androidx.appcompat.app.AppCompatActivity;
 
