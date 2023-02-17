@@ -1,9 +1,12 @@
 package com.example.fragments;
 
+import android.media.ImageWriter;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
@@ -28,25 +31,39 @@ public class DetailFragment extends Fragment {
 
     public void setSelectedItem(String selectedItem) {
         TextView view2 = getView().findViewById(R.id.detailsText2);
+        ImageView pic = getView().findViewById(R.id.imageViewFlags);
         String s = "";    switch (selectedItem){
             case "Марокко": {
-                s = info[0];            break;        }
+                s = info[0];
+                pic.setImageResource(R.drawable.morocco);
+                break;        }
             case "Того": {
-                s = info[1];            break;        }
+                s = info[1];
+                pic.setImageResource(R.drawable.togo);
+                break;        }
             case "Колумбия":
-                s = info[2];            break;
+                s = info[2];
+                pic.setImageResource(R.drawable.colomb);
+                break;
             case "Суринам":
-                s = info[3];            break;
+                s = info[3];
+                pic.setImageResource(R.drawable.suriname);
+                break;
             case "Австрия":
-                s = info[4];            break;
+                s = info[4];
+                pic.setImageResource(R.drawable.austria);
+                break;
             case "Центрально-Африканская Республика":
                 s = info[5];
+                pic.setImageResource(R.drawable.car);
                 break;
             case "Бенин":
                 s = info[6];
+                pic.setImageResource(R.drawable.benin);
                 break;
             case "Соломоновы Острова":
                 s = info[7];
+                pic.setImageResource(R.drawable.solomon);
                 break;
 
         }
